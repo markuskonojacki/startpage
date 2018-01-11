@@ -12,7 +12,7 @@ function GetClock(){
     if (nsec<=9)
         nsec="0"+nsec
 
-    document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+ndate+". "+tmonth[nmonth]+" "+nhour+":"+nmin+":"+nsec+"";
+    document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+ndate+". "+tmonth[nmonth]+" "+nhour+":"+nmin;
 }
 
 window.onload=function(){
