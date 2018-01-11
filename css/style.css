@@ -40,6 +40,7 @@ body {
   background: -webkit-gradient(radial, center center, 0, center center, 500, from(#433763), to(#292D48));
   background: -moz-radial-gradient(circle, #433763, #292D48);
   background: -ms-radial-gradient(circle, #433763, #292D48);
+  transform: translateZ(0);
 }
 h1.major,
 h2.major,
